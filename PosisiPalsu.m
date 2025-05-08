@@ -23,7 +23,7 @@ while n <= N && galat > tol
     
     if fa * fx < 0
         b = x;
-        fb = fx;
+        fb = fx; 
     elseif fx * fb < 0
         a = x;
         fa = fx;
