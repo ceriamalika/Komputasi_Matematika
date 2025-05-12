@@ -4,14 +4,9 @@ f = @(x) 2*x.^3;
 % Batas integrasi
 a = 0;
 b = 1;
-
-% Banyaknya subinterval
 n = 10;
-
-% Panjang langkah
 h = (b - a)/n;
 
-% Titik-titik x
 x = a:h:b;
 fx = f(x);
 
