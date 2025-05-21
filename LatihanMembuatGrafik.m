@@ -12,7 +12,7 @@
 % xlabel('x')
 % ylabel('sin(x)')
 % title('Plot of the Sine Function')
-% 
+xlabel('X'); ylabel('Y'); zlabel('Z');
 % %Dengan menambahkan argumen input ketiga ke fungsi plot, dapat memplot variabel yang sama menggunakan garis putus-putus merah.
 % plot(x, y, 'r--')
 % 
